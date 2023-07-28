@@ -16,6 +16,11 @@
   "ava": {
     "timeout": "3m"
   },
+  "files": [
+    "index.d.ts",
+    "index.js",
+    "bind-this.darwin-x64.node"
+  ],
   "devDependencies": {
     "@babel/generator": "7.12.11",
     "@babel/parser": "7.21.3",

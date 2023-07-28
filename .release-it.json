@@ -1,0 +1,20 @@
+{
+  "git": {
+    "commitMessage": "chore: release v${version}"
+  },
+  "npm":{
+    "skipChecks": true
+  },
+  "plugins": {
+    "@release-it/conventional-changelog": {
+      "preset": "angular",
+      "infile": "CHANGELOG.md",
+      "ignoreRecommendedBump": true
+    },
+    "@release-it-plugins/workspaces": true
+  },
+  "hooks": {
+    "before:init": ["npm run test"],
+    "after:bump": ["npm run build"]
+  }
+}

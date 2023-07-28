@@ -3,14 +3,19 @@
   "name": "@mpxjs-rs/compiler-monorepo",
   "version": "0.0.0",
   "license": "MIT",
+  "workspaces": ["packages/*"],
   "scripts": {
     "build": "pnpm -r run build",
-    "test": "ava"
+    "test": "ava",
+    "release": "release-it"
   },
   "devDependencies": {
     "@napi-rs/cli": "^2.16.1",
+    "@release-it-plugins/workspaces": "^4.0.0",
+    "@release-it/conventional-changelog": "^7.0.0",
     "ava": "^5.1.1",
-    "benchmark": "^2.1.4"
+    "benchmark": "^2.1.4",
+    "release-it": "^16.1.3"
   },
   "engines": {
     "node": ">= 10"
