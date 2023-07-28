@@ -1,9 +1,11 @@
 {
   "private": true,
   "name": "@mpxjs-rs/compiler-monorepo",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "license": "MIT",
-  "workspaces": ["packages/*"],
+  "workspaces": [
+    "packages/*"
+  ],
   "scripts": {
     "build": "pnpm -r run build",
     "test": "ava",
