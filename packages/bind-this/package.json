@@ -1,5 +1,5 @@
 {
-  "name": "@mpxjs-rs/bind-this",
+  "name": "@mpxrs/bind-this",
   "version": "0.0.2",
   "license": "MIT",
   "main": "index.js",
