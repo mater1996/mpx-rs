@@ -1,5 +1,13 @@
 
 
+## [0.0.4](https://github.com/mater1996/mpx-rs/compare/0.0.3...0.0.4) (2023-07-28)
+
+
+### Features
+
+* init ([a2ef6f5](https://github.com/mater1996/mpx-rs/commit/a2ef6f59605571a9b4d7aebdd12e3b6d9847b2b2))
+* init ([07505c4](https://github.com/mater1996/mpx-rs/commit/07505c4dd3d9dc25d4b9454a21be7373f21913da))
+
 ## [0.0.3](https://github.com/mater1996/mpx-rs/compare/0.0.2...0.0.3) (2023-07-28)
 
 
