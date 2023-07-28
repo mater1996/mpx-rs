@@ -1,5 +1,12 @@
 
 
+## [0.0.3](https://github.com/mater1996/mpx-rs/compare/0.0.2...0.0.3) (2023-07-28)
+
+
+### Bug Fixes
+
+* name ([2fdd68b](https://github.com/mater1996/mpx-rs/commit/2fdd68bb3d54959b9c63308fd367e4e185ff4786))
+
 ## [0.0.2](https://github.com/mater1996/mpx-rs/compare/0.0.1...0.0.2) (2023-07-28)
 
 
