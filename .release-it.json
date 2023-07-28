@@ -12,7 +12,6 @@
     "@release-it-plugins/workspaces": true
   },
   "hooks": {
-    "before:init": ["npm run test"],
-    "after:bump": ["npm run build"]
+    "after:bump": ["npm run build", "npm run test"]
   }
 }
