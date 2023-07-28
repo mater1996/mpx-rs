@@ -1,0 +1,40 @@
+[package]
+edition = "2021"
+name = "mpxjs_rs_bind_this"
+version = "0.0.0"
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+lazy_static = "1.4.0"
+log = {version = "0.4.19"}
+# Default enable napi4 feature, see https://nodejs.org/api/n-api.html#node-api-version-matrix
+napi = { version = "2.12.2", default-features = false, features = ["napi4"] }
+napi-derive = "2.12.2"
+serde = "1.0.171"
+serde_json = "1.0.103"
+swc_core = { version = "0.79.15", features = [
+  "__parser",
+  "__ecma",
+  "__visit",
+  "__utils",
+  "__ecma_transforms",
+  "ecma_ast",
+  "ecma_codegen",
+  "ecma_quote",
+  "common_concurrent",
+  "common_tty",
+  "swc_ecma_ast",
+  "ecma_transforms_react",
+  "ecma_transforms_module",
+  "swc_ecma_codegen",
+  "swc_ecma_visit",
+  "ecma_visit_path"
+] }
+
+[build-dependencies]
+napi-build = "2.0.1"
+
+[profile.release]
+lto = true
