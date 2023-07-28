@@ -396,7 +396,7 @@ fn test_transform() {
   let parsed: Vec<TestCase> =
     serde_json::from_str(String::from_utf8(source_codes_content).unwrap().as_str()).unwrap();
   for mut item in parsed {
-    let mut res = bind_this(
+    let mut res = transform(
       item.code,
       Some(Config {
         ignoreMap: item.ignoreMap,
