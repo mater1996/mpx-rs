@@ -11,4 +11,4 @@ export interface Res {
   code: string
   props: Array<string>
 }
-export function bindThis(source: string, inputConfig?: Config | undefined | null): Res
+export function transform(source: string, inputConfig?: Config | undefined | null): Res

@@ -1,5 +1,16 @@
 
 
+## [0.0.2](https://github.com/mater1996/mpx-rs/compare/0.0.1...0.0.2) (2023-07-28)
+
+
+### Bug Fixes
+
+* hoosk ([2daba06](https://github.com/mater1996/mpx-rs/commit/2daba062b80671785d431c1c90d160c39184017b))
+* init ([5cedf8c](https://github.com/mater1996/mpx-rs/commit/5cedf8cb820be6d98a7944dec0920bdf91fbe93d))
+* pkg ([dc3cc8d](https://github.com/mater1996/mpx-rs/commit/dc3cc8db01da78bb3401ab170c805c0711947a6f))
+* publishConfig ([4879b22](https://github.com/mater1996/mpx-rs/commit/4879b227f9a1542f63df38ce93dc4725c236755a))
+* vsar ([e37f412](https://github.com/mater1996/mpx-rs/commit/e37f41209f746023e10d61a935c39aa8eb78d38c))
+
 ## 0.0.1 (2023-07-28)
 
 
