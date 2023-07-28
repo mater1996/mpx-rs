@@ -1,0 +1,31 @@
+{
+  "name": "@mpxrs/bind-this-win32-ia32-msvc",
+  "version": "0.0.3",
+  "os": [
+    "win32"
+  ],
+  "cpu": [
+    "ia32"
+  ],
+  "main": "bind-this.win32-ia32-msvc.node",
+  "files": [
+    "bind-this.win32-ia32-msvc.node"
+  ],
+  "description": "Template project for writing node package with napi-rs",
+  "keywords": [
+    "napi-rs",
+    "NAPI",
+    "N-API",
+    "Rust",
+    "node-addon",
+    "node-addon-api"
+  ],
+  "license": "MIT",
+  "engines": {
+    "node": ">= 10"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/",
+    "access": "public"
+  }
+}
