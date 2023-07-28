@@ -2,9 +2,7 @@
   "git": {
     "commitMessage": "chore: release v${version}"
   },
-  "npm":{
-    "skipChecks": true
-  },
+  "npm": false,
   "plugins": {
     "@release-it/conventional-changelog": {
       "preset": "angular",
