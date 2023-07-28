@@ -1,7 +1,7 @@
 {
   "private": true,
   "name": "@mpxjs-rs/compiler-monorepo",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "license": "MIT",
   "workspaces": [
     "packages/*"

@@ -489,7 +489,7 @@ fn normalize_config(input_config: Option<Config>) -> Config {
 }
 
 #[napi]
-pub fn bind_this(source: String, input_config: Option<Config>) -> Res {
+pub fn transform(source: String, input_config: Option<Config>) -> Res {
   // 合并config
   let config = normalize_config(input_config);
   // 创建一个swc parser
