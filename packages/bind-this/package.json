@@ -49,19 +49,5 @@
         "universal-apple-darwin"
       ]
     }
-  },
-  "optionalDependencies": {
-    "@mpxjs-rs/bind-this-win32-x64-msvc": "0.0.1",
-    "@mpxjs-rs/bind-this-darwin-x64": "0.0.1",
-    "@mpxjs-rs/bind-this-linux-x64-gnu": "0.0.1",
-    "@mpxjs-rs/bind-this-darwin-arm64": "0.0.1",
-    "@mpxjs-rs/bind-this-linux-arm64-gnu": "0.0.1",
-    "@mpxjs-rs/bind-this-linux-arm64-musl": "0.0.1",
-    "@mpxjs-rs/bind-this-win32-arm64-msvc": "0.0.1",
-    "@mpxjs-rs/bind-this-linux-arm-gnueabihf": "0.0.1",
-    "@mpxjs-rs/bind-this-linux-x64-musl": "0.0.1",
-    "@mpxjs-rs/bind-this-freebsd-x64": "0.0.1",
-    "@mpxjs-rs/bind-this-win32-ia32-msvc": "0.0.1",
-    "@mpxjs-rs/bind-this-darwin-universal": "0.0.1"
   }
 }
