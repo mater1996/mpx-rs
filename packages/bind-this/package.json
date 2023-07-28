@@ -21,8 +21,7 @@
   },
   "files": [
     "index.d.ts",
-    "index.js",
-    "bind-this.darwin-x64.node"
+    "index.js"
   ],
   "devDependencies": {
     "@babel/generator": "7.12.11",
