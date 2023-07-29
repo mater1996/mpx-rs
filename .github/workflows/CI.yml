@@ -140,7 +140,7 @@ jobs:
         run: pnpm config set supportedArchitectures.cpu "ia32"
         shell: bash
       - name: Install dependencies
-        run: pnpm install
+        run: pnpm install --no-frozen-lockfile
       - name: Setup node x86
         uses: actions/setup-node@v3
         if: matrix.settings.target == 'i686-pc-windows-msvc'
@@ -201,7 +201,7 @@ jobs:
             whoami
             env
             freebsd-version
-            pnpm install
+            pnpm install --no-frozen-lockfile
             pnpm build
             strip -x *.node
             pnpm test
@@ -240,7 +240,7 @@ jobs:
           check-latest: true
           cache: pnpm
       - name: Install dependencies
-        run: pnpm install
+        run: pnpm install --no-frozen-lockfile
       - name: Download artifacts
         uses: actions/download-artifact@v3
         with:
@@ -272,7 +272,7 @@ jobs:
           check-latest: true
           cache: pnpm
       - name: Install dependencies
-        run: pnpm install
+        run: pnpm install --no-frozen-lockfile
       - name: Download artifacts
         uses: actions/download-artifact@v3
         with:
@@ -306,7 +306,7 @@ jobs:
       - name: Install dependencies
         run: |
           pnpm config set supportedArchitectures.libc "musl"
-          pnpm install
+          pnpm install --no-frozen-lockfile
       - name: Download artifacts
         uses: actions/download-artifact@v3
         with:
@@ -343,7 +343,7 @@ jobs:
         run: |
           pnpm config set supportedArchitectures.cpu "arm64"
           pnpm config set supportedArchitectures.libc "glibc"
-          pnpm install
+          pnpm install --no-frozen-lockfile
       - name: Set up QEMU
         uses: docker/setup-qemu-action@v2
         with:
@@ -377,7 +377,7 @@ jobs:
         run: |
           pnpm config set supportedArchitectures.cpu "arm64"
           pnpm config set supportedArchitectures.libc "musl"
-          pnpm install
+          pnpm install --no-frozen-lockfile
       - name: Set up QEMU
         uses: docker/setup-qemu-action@v2
         with:
@@ -416,7 +416,7 @@ jobs:
       - name: Install dependencies
         run: |
           pnpm config set supportedArchitectures.cpu "arm"
-          pnpm install
+          pnpm install --no-frozen-lockfile
       - name: Set up QEMU
         uses: docker/setup-qemu-action@v2
         with:
@@ -451,7 +451,7 @@ jobs:
           check-latest: true
           cache: pnpm
       - name: Install dependencies
-        run: pnpm install
+        run: pnpm install --no-frozen-lockfile
       - name: Download all artifacts
         uses: actions/download-artifact@v3
         with:
