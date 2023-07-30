@@ -35,7 +35,7 @@
     "node": ">= 10"
   },
   "napi": {
-    "name": "@mpxrs/bind-this",
+    "name": "bind-this",
     "triples": {
       "defaults": true,
       "additional": [
